@@ -16,7 +16,9 @@ public class BasicSalary {
             da = BasicSalary * 0.3;
             ta = BasicSalary * 0.2;
         }
-        System.out.printf("da is  %f and ta %f .", da, ta);
+        System.out.printf("Baic salary is :%f\n", BasicSalary);
+        System.out.printf("da is  %f and ta %f\n", da, ta);
+        System.out.printf("Gross salary is:%f", (BasicSalary + da + ta));
     }
 
 }
