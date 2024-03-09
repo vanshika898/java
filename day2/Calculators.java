@@ -9,6 +9,7 @@ public class Calculators {
         int b = sc.nextInt();
         System.out.print("enter operator:");
         char ch = sc.next().charAt(0);
+        System.out.print("Answer is:");
         switch (ch) {
             case '+':
                 System.out.println(a + b);
